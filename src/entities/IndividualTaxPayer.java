@@ -25,7 +25,7 @@ public class IndividualTaxPayer extends TaxPayer{
 			taxesPaid -= healthExpenditures / 2;
 		}
 		
-		return null;
+		return taxesPaid;
 	}
 
 	public Double getHealthExpenditures() {
